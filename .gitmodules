@@ -1,0 +1,6 @@
+[submodule "cs-magic-frontend"]
+	path = cs-magic-frontend
+	url = ./cs-magic-frontend
+[submodule "cs-magic-backend"]
+	path = cs-magic-backend
+	url = ./cs-magic-backend
