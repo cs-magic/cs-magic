@@ -6,6 +6,7 @@ module.exports = {
 			script: './run-start.sh',
 			env: {
 				HTTP_PROXY: 'http://localhost:7890',
+				HTTPS_PROXY: 'http://localhost:7890',
 				PORT: 3366,
 				HOST: 'localhost'
 			},
@@ -26,3 +27,4 @@ module.exports = {
 		}
 	]
 }
+
