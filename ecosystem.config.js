@@ -5,8 +5,8 @@ module.exports = {
 			cwd: './cs-magic-backend',
 			script: './run-start.sh',
 			env: {
-				HTTP_PROXY: 'http://localhost:7890',
-				HTTPS_PROXY: 'http://localhost:7890',
+//				HTTP_PROXY: 'http://localhost:7890',
+//				HTTPS_PROXY: 'http://localhost:7890',
 				PORT: 2001,
 				HOST: 'localhost'
 			},
