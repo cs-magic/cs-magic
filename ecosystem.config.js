@@ -7,7 +7,7 @@ module.exports = {
 			env: {
 				HTTP_PROXY: 'http://localhost:7890',
 				HTTPS_PROXY: 'http://localhost:7890',
-				PORT: 3366,
+				PORT: 2001,
 				HOST: 'localhost'
 			},
 			env_prod: {
