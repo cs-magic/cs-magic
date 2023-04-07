@@ -18,19 +18,21 @@ module.exports = {
 			},
 		},
 		{
-			name: 'cs-magic-frontend',
+			name: 'cs-magic-frontend-alpha',
 			cwd: './cs-magic-frontend',
 			script: './run-start.sh',
 			env: {
-				ENV: "dev",
-			},
-			env_alpha: {
 				ENV: "alpha",
 			},
-			env_prod: {
+		},
+		{
+			name: 'cs-magic-frontend-prod',
+			cwd: './cs-magic-frontend',
+			script: './run-start.sh',
+			env: {
 				ENV: "prod",
 			},
-		}
+		},
 	]
 }
 
