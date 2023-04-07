@@ -10,6 +10,9 @@ module.exports = {
 				PORT: 2001,
 				HOST: 'localhost'
 			},
+			env_alpha: {
+				HOST: '0.0.0.0'
+			},
 			env_prod: {
 				HOST: '0.0.0.0'
 			},
@@ -21,6 +24,9 @@ module.exports = {
 			env: {
 				ENV: "dev",
 			},
+			env_alpha: {
+				ENV: "alpha",
+			}
 			env_prod: {
 				ENV: "prod",
 			}
