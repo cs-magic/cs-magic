@@ -26,10 +26,10 @@ module.exports = {
 			},
 			env_alpha: {
 				ENV: "alpha",
-			}
+			},
 			env_prod: {
 				ENV: "prod",
-			}
+			},
 		}
 	]
 }
