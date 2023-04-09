@@ -8,13 +8,16 @@ module.exports = {
 //				HTTP_PROXY: 'http://localhost:7890',
 //				HTTPS_PROXY: 'http://localhost:7890',
 				PORT: 2001,
-				HOST: 'localhost'
+				HOST: 'localhost',
+				ENV: 'dev',
 			},
 			env_alpha: {
-				HOST: '0.0.0.0'
+				HOST: '0.0.0.0',
+				ENV: 'alpha',
 			},
 			env_prod: {
-				HOST: '0.0.0.0'
+				HOST: '0.0.0.0',
+				ENV: 'prod',
 			},
 		},
 		{
