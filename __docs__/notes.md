@@ -2,7 +2,15 @@
 
 ## nginx relative
 
-## integrate nextjs app with nginx
+### 307 with proxy
+
+```
+proxy_set_header   Host $host/backend;
+```
+
+ref: https://github.com/minio/minio/issues/3802#issuecomment-282386478
+
+### integrate nextjs app with nginx
 
 ref: https://gist.github.com/jjsquady/5399d6e1b23f501083a9c262d806e248
 

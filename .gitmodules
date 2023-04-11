@@ -4,3 +4,6 @@
 [submodule "cs-magic-backend"]
 	path = cs-magic-backend
 	url = https://github.com/cs-magic/cs-magic-backend
+[submodule "cs-magic-t3"]
+	path = cs-magic-t3
+	url = ./cs-magic-t3
