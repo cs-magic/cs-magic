@@ -1,9 +1,9 @@
 [submodule "cs-magic-frontend"]
 	path = cs-magic-frontend
-	url = https://github.com/cs-magic/cs-magic-frontend
+	url = git@github.com:cs-magic/cs-magic-frontend.git
 [submodule "cs-magic-backend"]
 	path = cs-magic-backend
-	url = https://github.com/cs-magic/cs-magic-backend
+	url = git@github.com:cs-magic/cs-magic-backend.git
 [submodule "cs-magic-t3"]
 	path = cs-magic-t3
 	url = ./cs-magic-t3
