@@ -10,8 +10,7 @@ export const uri = {
 			competition: '/images/mj/carousel-peace.png',
 		},
 	},
-	companyLogoIco: '/icons/logo/m/32_purple_white.ico',
-	productLogoIco: '/icons/logo/m/32_purple_white.ico',
+	logo: '/images/logo/m/32_white_black.ico',
 	home: '/',
 	auth: {
 		login: '/auth/login',
