@@ -12,6 +12,9 @@ export type IUser = {
 export interface IMemberBase {
 	name: string
 	figure?: string
-	title: string
+	title?: string
 	mail: string
+	sign?: string
+	gender?: string
+	
 }

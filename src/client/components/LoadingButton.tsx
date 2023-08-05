@@ -1,17 +1,13 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import Spinner from './Spinner'
 import { Button } from './ui/button'
 
-type LoadingButtonProps = {
-	loading: boolean;
-	children: React.ReactNode;
-};
 
-export const LoadingButton: React.FC<LoadingButtonProps> = (
+export const LoadingButton = (
 	{
 		children,
 		loading = false,
-	}) => {
+	}: PropsWithChildren & { loading: boolean }) => {
 	return (
 		<Button
 			variant={'default'}

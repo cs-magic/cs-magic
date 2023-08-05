@@ -131,6 +131,76 @@
       "Figure": null,
       "Mail": "ella@cs-magic.com",
       "Category": "Advisory"
+    },
+        "Ely": {
+      "Name": "Ely",
+      "Mail": "ely@cs-magic.com"
+    },
+    "Jane": {
+      "Name": "Jane",
+      "Mail": "jane@cs-magic.com"
+    },
+    "Precious": {
+      "Name": "Precious",
+      "Mail": "ymz@cs-magic.com"
+    },
+    "Jaisy": {
+      "Name": "Jaisy",
+      "Mail": "jiaqi@cs-magic.com"
+    },
+    "Gaosh": {
+      "Name": "Gaosh",
+      "Mail": "gao@cs-magic.com",
+      "Desc": "R&D engineer in the field of infrastructure, urban road engineer, has participated in and presided over more than 20 urban road design projects, with a construction mileage of more than 200km, designed more than 10 interchanges, and the project was awarded the first prize of Shenzhen Transportation Engineering Technology Innovation. Dedicated to cross-discipline productivity synergy enhancement, integrating technology and art into future city construction.",
+      "Gender": "male"
+    },
+    "John": {
+      "Name": "John",
+      "Mail": "john@cs-magic.com"
+    },
+    "LiXi": {
+      "Name": "LiXi",
+      "Mail": "lixi@cs-magic.com"
+    },
+    "Amber": {
+      "Name": "Amber",
+      "Mail": "shuq@cs-magic.com"
+    },
+    "Zeo": {
+      "Name": "Zoe",
+      "Mail": "hzy@cs-magic.com"
+    },
+    "Yokonsan": {
+      "Name": "Yokonsan",
+      "Mail": "yokonsan@cs-magic.com"
+    },
+    "Justine": {
+      "Name": "Justine",
+      "Mail": "justine@cs-magic.com"
+    },
+    "LiXiaowen": {
+      "Name": "LiXiaowen",
+      "Mail": "lxw@cs-magic.com"
+    },
+    "Ryan": {
+      "Name": "Ryan",
+      "Mail": "ruinan@cs-magic.com"
+    },
+    "tt": {
+      "Name": "tt",
+      "Mail": "tt@cs-magic.com"
+    },
+    "Mason": {
+      "Name": "Mason",
+      "Mail": "mason@cs-magic.com"
+    },
+    "Alone": {
+      "Name": "Alone",
+      "Mail": "alone@cs-magic.com"
+    },
+    "Sarah": {
+      "Name": "Sarah",
+      "Mail": "sarah@cs-magic.com"
     }
   },
   "FAQ": {

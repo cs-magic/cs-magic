@@ -41,21 +41,40 @@ export const ICON_SIZE_MD = 28
 export const ICON_SIZE_SM = 20
 export const ICON_SIZE_XS = 16
 
-export const groups = {
-	"Founders": [
-		"Mark",
-		"Nicole"
+export const groupMembers = {
+	'Founders': [
+		'Mark',
+		'Nicole',
 	],
-	"Core": [
-		"Susan",
-		"Clotho",
-		"Lara",
-		"Cynthia",
-		"Yimi"
+	'Core': [
+		'Susan',
+		'Clotho',
+		'Lara',
+		'Cynthia',
+		'Yimi',
 	],
-	"Advisory": [
-		"Nirva",
-		"Joy",
-		"Ella"
-	]
+	'Advisory': [
+		'Nirva',
+		'Joy',
+		'Ella',
+	],
+	'Community': [
+		'Gaosh',
+		'Alone',
+		'Amber',
+		'Ely',
+		'Jaisy',
+		'Jane',
+		'John',
+		'Justine',
+		'LiXi',
+		'LiXiaowen',
+		'Mason',
+		'Ryan',
+		'Precious',
+		'Sarah',
+		'tt',
+		'Yokonsan',
+		'Zeo',
+	],
 }

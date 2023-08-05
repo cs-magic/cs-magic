@@ -132,7 +132,7 @@
     },
     "Nirva": {
       "Name": "Nirva",
-      "Title": "资深Advisory",
+      "Title": "创业指导",
       "Desc": "Nirva 毕业于哈尔滨工业大学数学系，是指数深空创始人，前清华大学智能产业研究院研究专员。他致力于为从原子到比特的世界赋予实体与灵魂，主要从事领域覆盖硬件、物理、强化学习。他发起指数深空项目，通过20年的路线图推动地外的大规模原位资源利用与空间文明时代成为可能。他完成并持有某型光敏曝光3D打印十余项专利与知识产权。",
       "Sign": null,
       "Gender": "male",
@@ -142,7 +142,7 @@
     },
     "Joy": {
       "Name": "Joy",
-      "Title": "资深Advisory",
+      "Title": "创业指导",
       "Desc": "Joy 毕业于WPI本硕电子工程，曾在哈佛医学院 / Google 研究数据图像软件，现创业于深圳、上海，主要方向为互动体育传感器硬件、博物馆SaaS，base SZX|PVG|YYZ|BOS。",
       "Sign": null,
       "Gender": "female",
@@ -152,13 +152,84 @@
     },
     "Ella": {
       "Name": "Ella",
-      "Title": "资深Advisory",
-      "Desc": "Ella 毕业于复旦大学金融学。她曾在华兴 FA 工作，现独立创业中。",
+      "Title": "投融资指导",
+      "Desc": "Ella 毕业于复旦大学金融学。她曾在一线 FA 工作，现独立创业中。",
       "Sign": null,
       "Gender": "female",
       "Figure": null,
       "Mail": "ella@cs-magic.com",
       "Category": "Advisory"
+    },
+    "Ely": {
+      "Name": "舒荷",
+      "Mail": "ely@cs-magic.com"
+    },
+    "Jane": {
+      "Name": "Jane",
+      "Mail": "jane@cs-magic.com"
+    },
+    "Precious": {
+      "Name": "喻明珠",
+      "Mail": "ymz@cs-magic.com"
+    },
+    "Jaisy": {
+      "Name": "许嘉琪",
+      "Mail": "jiaqi@cs-magic.com"
+    },
+    "Gaosh": {
+      "Name": "高笙",
+      "Title": "产品战略",
+      "Mail": "gao@cs-magic.com",
+      "Desc": "基建领域研发工程师，城市道路工程师，先后参与、主持城市道路设计项目20余项，建设里程超过200km，设计立交10余座，项目曾获深圳市交通工程技术创新一等奖。致力于跨领域生产力协同提升，将科技与艺术融入未来城市建设。",
+      "Gender": "male"
+    },
+    "John": {
+      "Name": "John神",
+      "Mail": "john@cs-magic.com"
+    },
+    "LiXi": {
+      "Name": "李玺",
+      "Mail": "lixi@cs-magic.com"
+    },
+    "Amber": {
+      "Name": "张书齐",
+      "Mail": "shuq@cs-magic.com"
+    },
+    "Zeo": {
+      "Name": "韩泽媛",
+      "Mail": "hzy@cs-magic.com"
+    },
+    "Yokonsan": {
+      "Name": "Yokonsan",
+      "Mail": "yokonsan@cs-magic.com"
+    },
+    "Justine": {
+      "Name": "Justine",
+      "Mail": "justine@cs-magic.com"
+    },
+    "LiXiaowen": {
+      "Name": "李晓文",
+      "Mail": "lxw@cs-magic.com"
+    },
+    "Ryan": {
+      "Name": "黄瑞楠",
+      "Mail": "ruinan@cs-magic.com"
+    },
+    "tt": {
+      "Name": "TT老师",
+      "Mail": "tt@cs-magic.com"
+    },
+    "Mason": {
+      "Name": "Mason",
+      "Mail": "mason@cs-magic.com"
+    },
+    "Alone": {
+      "Name": "Alone",
+      "Mail": "alone@cs-magic.com"
+    },
+    "Sarah": {
+      "Name": "Sarah",
+      "Mail": "sarah@cs-magic.com"
     }
   },
   "FAQ": {
