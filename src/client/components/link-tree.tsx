@@ -1,5 +1,10 @@
-import { ILink } from '@/ds/link'
 import Link from 'next/link'
+
+export interface ILink {
+	href: string
+	title: string
+}
+
 
 export const LinkTree = (props: {
 	title: string

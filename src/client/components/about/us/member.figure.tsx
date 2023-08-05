@@ -1,4 +1,3 @@
-import { GenderType, IMemberBase } from '@/ds/member'
 import Image from 'next/image'
 import ImgMoZhen from '../../../../../public/images/members/mozhen.png'
 import { clsx } from 'clsx'

@@ -2,8 +2,8 @@ import { ICommonLocale } from '@/@types/resources'
 import { useTranslation } from 'next-i18next'
 import _ from 'lodash'
 import { Separator } from '@/client/components/ui/separator'
-import { IMemberBase } from '@/ds/member'
 import { LocaleNameSpace } from '@/ds/locales'
+import { IMemberBase } from '@/ds/user'
 
 const MemberProperty = (props: {
 	name: keyof ICommonLocale['Team']['Member']

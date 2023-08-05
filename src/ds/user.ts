@@ -9,18 +9,9 @@ export type IUser = {
 	createdAt: string;
 };
 
-export type IPost = {
-	id: string;
-	title: string;
-	content: string;
-	category: string;
-	published: boolean;
-	image: string;
-	createdAt: Date;
-	updatedAt: string;
-	user: {
-		email: string;
-		name: string;
-		photo: string;
-	};
-};
+export interface IMemberBase {
+	name: string
+	figure?: string
+	title: string
+	mail: string
+}
