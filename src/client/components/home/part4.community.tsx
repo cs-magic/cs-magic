@@ -44,9 +44,9 @@ export const Part4Community = () => {
 	const { t } = useTranslation()
 	
 	return (
-		<div className={clsx('w-full flex items-center justify-between h-[320px] gap-8')}>
+		<div className={clsx('w-full grid grid-cols-1 md:grid-cols-2 gap-8')}>
 			<div className={'w-full md:w-fit shrink-0 flex flex-col gap-6 px-8 md:pl-16'}>
-				<p className={'w-fit text-lg'}>#${t('common:HomePage.part4.desc')}</p>
+				<p className={'w-fit text-lg'}>#{t('common:HomePage.part4.desc')}</p>
 				<p className={'text-3xl'}>
 					{t('common:HomePage.part4.title')}
 				</p>
@@ -65,7 +65,7 @@ export const Part4Community = () => {
 			
 			</div>
 			
-			<div className={'flex gap-2 h-full overflow-hidden grow relative mask'}>
+			<div className={'flex gap-2 h-full overflow-hidden grow relative mask h-[240px] md:h-[320px]'}>
 				{
 					_.chunk(avatarsAll.slice(0, 320), 16)
 						.map((avatarGroup, index) => (

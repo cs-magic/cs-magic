@@ -9,7 +9,7 @@ export const Part3Faq = () => {
 	const questions = Object.keys(resources.manufacture.FAQ)
 	
 	return (
-		<div className={'w-full h-full flex flex-col items-center gap-2'}>
+		<div className={'px-4 w-full h-full flex flex-col items-center gap-2'}>
 			<h1 className={clsx('text-4xl p-16 bg-clip-text text-transparent linear')}>
 				{t('common:HomePage.FAQ')}
 			</h1>
@@ -26,7 +26,7 @@ export const Part3Faq = () => {
 					 */
 					questions.map((item) => (
 						<AccordionItem value={item} key={item}>
-							<AccordionTrigger>{t(`manufacture:FAQ.${item}.question`)}</AccordionTrigger>
+							<AccordionTrigger className={'w-full gap-2 text-left text-sm md:text-md lg:text-lg'}>{t(`manufacture:FAQ.${item}.question`)}</AccordionTrigger>
 							<AccordionContent>
 								<article className={clsx('prose dark:prose-invert text-muted-foreground')}>
 									<ReactMarkdown>

@@ -5,7 +5,7 @@ export const Part2Features = () => {
 	const { t } = useTranslation()
 	
 	return (
-		<div className={'w-full grid grid-cols-1 md:grid-cols-3 divide-x items-start  '}>
+		<div className={'w-full grid grid-cols-1 md:grid-cols-3 divide-x items-start gap-[1rem]'}>
 			{
 				Object.keys(resources.manufacture.Company.Features).map((key, index) => (
 					<div key={key} className={'w-full  flex flex-col justify-center items-center'}>

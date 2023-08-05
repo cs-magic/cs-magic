@@ -34,7 +34,8 @@
       "Name": "Name",
       "Title": "Title",
       "Desc": "Desc.",
-      "Sign": "Sign."
+      "Sign": "Sign.",
+      "Mail": "Mail"
     }
   }
 }

@@ -13,7 +13,7 @@ export const Footer = () => {
 	
 	return (
 		<>
-			<div className={'w-full flex flex-wrap justify-between items-center bg-black border-t lg:gap-32 px-16 lg:px-32 py-8 gap-12 '}>
+			<div className={'w-full flex flex-wrap justify-between items-center bg-black border-t lg:gap-32 px-16 lg:px-32 py-8 gap-12 mt-8 '}>
 				
 				<div className={'flex flex-col justify-center items-center gap-4 shrink-0 w-full md:w-fit order-last md:order-first'}>
 					<div className={'flex items-center gap-4 text-2xl '}>

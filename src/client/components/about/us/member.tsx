@@ -5,10 +5,12 @@ import { useTranslation } from 'next-i18next'
 import { LocaleNameSpace } from '@/ds/locales'
 import { ICommonLocale } from '@/@types/resources'
 import { Separator } from '@/client/components/ui/separator'
+import Link from 'next/link'
+import { ReactNode } from 'react'
 
 const MemberProperty = (props: {
 	name: keyof ICommonLocale['Team']['Member']
-	value?: string
+	value?: ReactNode
 }) => {
 	const { t } = useTranslation()
 	
@@ -60,7 +62,11 @@ export const Member = ({ nameKey }: {
 				<MemberProperty name={'Name'} value={t(`manufacture:Team.${nameKey}.Name`)}/>
 				<MemberProperty name={'Title'} value={t(`manufacture:Team.${nameKey}.Title`)}/>
 				<MemberProperty name={'Desc'} value={t(`manufacture:Team.${nameKey}.Desc`)}/>
-				{/*<MemberProperty name={'Sign'} value={t(`manufacture:Team.${nameKey}.Sign`)}/>*/}
+				<MemberProperty name={'Mail'} value={
+					<Link href={"mailto:"+t(`manufacture:Team.${nameKey}.Mail`)} className={'underline'}>
+						{t(`manufacture:Team.${nameKey}.Mail`)}
+					</Link>
+				}/>
 				</tbody>
 			</table>
 		</div>
