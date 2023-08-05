@@ -1,4 +1,4 @@
-import Logo from '../../../public/images/logo/m/logo_1280.svg'
+import Logo from '../../../public/images/logo/m/1280.svg'
 import { LOGO_SIZE_LG } from '@/config'
 import { HTMLProps } from 'react'
 import { clsx } from 'clsx'
