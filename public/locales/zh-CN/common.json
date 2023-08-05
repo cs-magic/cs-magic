@@ -1,6 +1,7 @@
 {
   "HomePage": {
-    "BtnStartUse": "开启魔法之旅",
+    "BtnStartUse": "敬启魔法之旅",
+    "BtnStartUseSm": "敬启",
     "BtnCreateAccount": "立即创建你的专属账号",
     "BtnCreateAccountDesc": "（每日均可免费使用）",
     "Team": "团队",

@@ -9,16 +9,17 @@ import { Button } from '@/client/components/ui/button'
 import { CompanyLogo } from '../../utils/loader'
 import { Avatar, AvatarFallback } from '@/client/components/ui/avatar'
 import { LocaleSwitcher } from '@/client/components/locale-switcher'
-
+import { useViewportSize } from '@mantine/hooks'
+import { useSmallScreen } from '@/client/hooks/use-screen'
 
 export const Navbar = () => {
 	const { t } = useTranslation()
 	const isChinese = useSimplifiedChinese()
-	
+	const isSmallScreen = useSmallScreen()
 	
 	return (
 		<nav className={clsx(
-			'fixed top-0 z-50 bg-black/[.50] backdrop-blur-lg w-full flex py-3 px-2 md:px-4 lg:px-8 justify-between items-center font-light gap-2',
+			'fixed top-0 z-50 bg-black/[.50] backdrop-blur-lg w-full flex py-3 px-4 lg:px-8 justify-between items-center font-light gap-2',
 		)}>
 			
 			<div className={clsx('inline-flex-center gap-2 px-2')}>
@@ -34,21 +35,29 @@ export const Navbar = () => {
 			</div>
 			
 			<div className={'flex items-center gap-2'}>
-				<NavigationMenu className={'hidden md:flex'}>
-					<NavigationMenuList className={'gap-8 inline-flex whitespace-nowrap'}>
+				<NavigationMenu className={clsx(
+					// 'hidden',
+				' md:flex'
+				)}>
+					<NavigationMenuList className={'gap-2 md:gap-4 inline-flex whitespace-nowrap'}>
 						
 						<LocaleSwitcher/>
 						
 						<Link href={uri.product.playground} legacyBehavior passHref className={'bg-cyan-900'}>
 							<div>
 								<Button className={clsx(
-									'btn-primary hidden md:block ',
+									// 'hidden md:block',
+									'btn-primary  ',
 									isChinese && 'tracking-[0.1rem]',
 								)}>
-									{t('common:HomePage.BtnStartUse')}
+									{t(`common:HomePage.BtnStartUse${isSmallScreen ? 'Sm' : ''}`)}
 								</Button>
 								
-								<Avatar className={'md:hidden cursor-pointer'}>
+								<Avatar className={clsx(
+									'hidden',
+									// 'md:hidden',
+									'cursor-pointer'
+								)}>
 									<AvatarFallback>
 										<IconUser/>
 									</AvatarFallback>

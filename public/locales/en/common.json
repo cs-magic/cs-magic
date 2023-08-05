@@ -1,6 +1,7 @@
 {
   "HomePage": {
     "BtnStartUse": "Start Magic Travel",
+    "BtnStartUseSm": "Start",
     "BtnCreateAccount": "Create Your Account",
     "BtnCreateAccountDesc": "(Free In Use EveryDay)",
     "Team": "Team",
