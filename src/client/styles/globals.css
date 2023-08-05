@@ -1,0 +1,153 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: white;
+        --foreground: black;
+
+        --muted: hsl(210 40% 96.1%);
+        --muted-foreground: hsl(215 16.3% 46.9%);
+
+        --primary: black;
+        --primary-foreground: #9E44EB;
+        /*--primary-foreground: #9E44EB;*/
+
+        --secondary: hsl(210 40% 96.1%);
+        --secondary-foreground: hsl(222 47.4% 11.2%);
+
+        --accent: hsl(210 40% 96.1%);
+        --accent-foreground: hsl(222 47.4% 11.2%);
+
+        --destructive: hsl(0 84.2% 60.2%);
+        --destructive-foreground: hsl(210 40% 98%);
+
+        --popover: hsl(0 0% 100%);
+        --popover-foreground: hsl(222 84% 4.9%);
+
+        --card: hsl(0 0% 100%);
+        --card-foreground: hsl(222 84% 4.9%);
+
+        --border: hsl(214 31.8% 91.4%);
+        --input: hsl(214 31.8% 91.4%);
+
+        --ring: hsl(215 20.2% 65.1%);
+
+        --radius: 0.5rem;
+
+        --shadow: #3DDCFF;
+    }
+
+    .dark {
+        /*--background: #000000; !* 黑色效果更好一些 *!*/
+        --background: #0E131B; /* 用于 cover 的背景色填充 */
+        --foreground: white;
+
+        --primary: #82318E; /* 维基百科清华校色 */
+        /*--primary: #4A0D77; !* 知乎对比清华、南开、南大的颜色 *!*/
+        /*--primary: #C84FC7; !*主色调：用于大面积关注的主区域*!*/
+        --primary-foreground: #F8F9F8;
+
+        --secondary: #7A77FB; /*次色调：用于小面积关注的次区域*/
+        --secondary-foreground: #7A77FB;
+
+        --border: #2C2D3C;
+
+        --muted: hsl(217 32.6% 17.5%);
+        --muted-foreground: hsl(215 20.2% 65.1%);
+
+        --accent: hsl(217 32.6% 37.5%); /* based on accent */
+        /*--accent: #88888A; !*flowgpt button hover bg*!*/
+        /*--accent: #2A2A33; !*默认*!*/
+        --accent-foreground: hsl(210 40% 98%);
+
+        --destructive: hsl(0 62.8% 30.6%);
+        --destructive-foreground: hsl(0 85.7% 97.3%);
+
+        --popover: hsl(222 84% 4.9%);
+        --popover-foreground: hsl(210 40% 98%);
+
+        --card: hsl(222 84% 4.9%);
+        --card-foreground: hsl(210 40% 98%);
+
+        --input: hsl(217 32.6% 17.5%);
+
+        --ring: hsl(217 32.6% 17.5%);
+
+        --shadow: #04E0F6;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border transition-all;
+    }
+
+    svg {
+        /*@apply cursor-pointer;*/
+        /*hocus:scale-125;*/
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+
+    .center {
+        @apply justify-center items-center;
+    }
+
+    .flex-center {
+        @apply flex center;
+    }
+
+    .inline-flex-center {
+        @apply inline-flex center;
+    }
+
+    .linear {
+        @apply bg-gradient-to-r from-primary to-secondary;
+    }
+
+    .linear-reverse {
+        @apply bg-gradient-to-l from-primary to-secondary;
+    }
+
+    .text-linear {
+        @apply bg-clip-text text-transparent linear;
+    }
+
+    .text-linear-reverse {
+        @apply bg-clip-text text-transparent linear-reverse;
+    }
+
+
+    .mask {
+        /* ref: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient*/
+        mask-image: radial-gradient(ellipse farthest-corner, white 40%, transparent 75%);
+    }
+}
+
+
+@layer components {
+    .btn-primary {
+        @apply rounded-3xl hover:scale-[1.02] linear hover:linear-reverse transition-all w-fit;
+    }
+
+    .carousel .slide .legend {
+        opacity: .6 !important;
+    }
+
+    .carousel:hover .slide .legend {
+        opacity: 1 !important;
+    }
+}
+
+.prose {
+    /* 让链接颜色继承 */
+    --tw-prose-invert-links: '';
+}

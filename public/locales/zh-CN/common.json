@@ -1,0 +1,39 @@
+{
+  "HomePage": {
+    "BtnStartUse": "开启魔法之旅",
+    "BtnCreateAccount": "立即创建你的专属账号",
+    "BtnCreateAccountDesc": "（每日均可免费使用）",
+    "Team": "团队",
+    "Products": "产品",
+    "Community": "社区",
+    "Connection": "联系",
+    "FAQ": "问题",
+    "part4": {
+      "desc": "您的需求很重要",
+      "title": "想加入CS魔法社区的大家庭？",
+      "contact": "立即联系魔法助理"
+    },
+    "links": {
+      "FAQ": "常见问题",
+      "AboutUS": "关于我们"
+    }
+  },
+  "General": {
+    "About": "关于",
+    "At": "在"
+  },
+  "Team": {
+    "Category": {
+      "Founders": "创始人",
+      "Core": "核心成员",
+      "Advisory": "战略咨询",
+      "Community": "社区"
+    },
+    "Member": {
+      "Name": "姓名",
+      "Title": "职衔",
+      "Desc": "简介",
+      "Sign": "签名"
+    }
+  }
+}

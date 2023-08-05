@@ -1,0 +1,11 @@
+interface Resources {
+  "manufacture": {
+    "app_name": "CS魔法社",
+    "product": {
+      "name": "CS魔法社",
+      "slogan": "人人都是魔法师"
+    }
+  }
+}
+
+export default Resources;

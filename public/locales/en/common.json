@@ -1,0 +1,39 @@
+{
+  "HomePage": {
+    "BtnStartUse": "Start Magic Travel",
+    "BtnCreateAccount": "Create Your Account",
+    "BtnCreateAccountDesc": "(Free In Use EveryDay)",
+    "Team": "Team",
+    "Products": "Products",
+    "Community": "Community",
+    "Connection": "Connection",
+    "FAQ": "FAQ",
+    "part4": {
+      "desc": "Your Voice is important",
+      "title": "Join the CS Magic Community",
+      "contact": "Contact Your Magician Assistant"
+    },
+    "links": {
+      "FAQ": "FAQ",
+      "AboutUS": "About US"
+    }
+  },
+  "General": {
+    "About": "About ",
+    "At": "At "
+  },
+  "Team": {
+    "Category": {
+      "Founders": "Founders",
+      "Core": "Core Members",
+      "Advisory": "Advisory",
+      "Community": "Community"
+    },
+    "Member": {
+      "Name": "Name",
+      "Title": "Title",
+      "Desc": "Desc.",
+      "Sign": "Sign."
+    }
+  }
+}

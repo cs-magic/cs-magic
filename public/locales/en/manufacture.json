@@ -1,0 +1,162 @@
+{
+  "Product": {
+    "Name": "LUMOS"
+  },
+  "Company": {
+    "Name": "CS Magic",
+    "FullName": "CS Magic",
+    "Mission": "We always insist on making good products that are \"user-friendly, professional and reliable\" so that everyone can enjoy the beauty of knowledge and creation.",
+    "Slogan": "Every Human Being\nis A Magician.",
+    "Vision": "Every Human Being is A Magician.",
+    "Values": "Truth-seeking, Transparency, Creation, Excellence, Agility, Advancement",
+    "Intro": {
+      "Basic": "Founded in 2023, CS Magic  is committed to always making \"technology-driven, user-friendly\" products, with the vision that \"Every Human Being is A Magician\".",
+      "Team": "We are currently a small team from well-known universities and companies around the world. We iterate our products at high speed with \"Agile\" as our first guiding principle.",
+      "Products": "We integrated almost major AIGC services around the world, with potentially the richest prompt ecosystem, dedicated to rapidly developing users' AIGC capabilities.",
+      "//Strategy": "[todo: Consider if you want to write about what you've achieved, what you're planning to do next, what you're aiming to generate, etc.]",
+      "Desc": "**CS Magic** is dedicated to creating \"technology-driven, user-friendly\" magic products.\n\nHere you can share the joy of the magical world with millions of magicians!"
+    },
+    "Features": {
+      "what-we-do": {
+        "summary": "Cross-Platform & Multi-Model",
+        "desc": "ChatGPT(3.5, 4)、Claude、OpenChat……\nMidJourney、Stable-Diffusion……\nYou are just one CS Magic away from the AIGC era!"
+      },
+      "what's our characteristic": {
+        "summary": "Community & Data",
+        "desc": "Synchronization of global data sources such as FlowGPT.\nUnified heat ranking index design.\nDelicate and silky user experience!"
+      },
+      "what can we bring": {
+        "summary": "Share & Create",
+        "desc": "Feel free to choose to share your:\nMagic Accounts, Magic Skills or Magic Experience ...\nCreate value together!"
+      }
+    }
+  },
+  "Team": {
+    "Mark": {
+      "Name": "Mark Shawn",
+      "Title": "CTO (Chief Technology Officer)",
+      "Desc": "Mark Shawn is the co-founder and CTO of CS Magic, a full-stack algorithm engineer, and Freelancer.\nHe had dropped out of software engineering at the University of Electronic Science and Technology of China. He is proficient in py/ts/C++ programming language and has more than ten years of experience in research and development of nearly a hundred projects.\nAt the age of nineteen, he self-developed a quantitative trading strategy with millions of audiences and successfully commercialized it. In 2021, he rode the Sichuan-Tibet line independently. In 2023, he was a digital nomad across the country and founded the CS Magic Community.",
+      "Sign": "Be Water, My Friend.",
+      "Gender": "male",
+      "Figure": "/images/members/3.png",
+      "Mail": "mark@cs-magic.com",
+      "Category": "Founders"
+    },
+    "Nicole": {
+      "Name": "Nicole Yao",
+      "Title": "CEO (Chief Execution Officer)",
+      "Desc": "Nicole, the co-founder and CEO of CS Magic, is a highly motivated and results-driven marketing and management professional with a wealth of experience across multiple industries. Equipped with a bachelor's degree in Marketing and Information Systems Operations Management, a visiting scholar experience at Tsinghua University, and a master's degree in Organizational Dynamics from University of Pennsylvania, Nicole has cultivated a versatile skill set. As a marketing professional, AIGC entrepreneur, educator, designer, and newbie actress, she is known for her curiosity and eagerness to explore new fields and make a difference. Nicole's commitment to creating meaningful contributions, dedication to making a positive impact, and adaptability to various environments drive her consistent pursuit of excellence.",
+      "Sign": "Make something wonderful.",
+      "Gender": "female",
+      "Figure": "/images/members/1.png",
+      "Mail": "nicoleyao@cs-magic.com",
+      "Category": "Founders"
+    },
+        "Susan": {
+      "Name": "Susan",
+      "Title": "COO（Chief Operating Officer）",
+      "Desc": "Shannon is the COO of CS Magic Club, a master's degree graduate from the University of Hong Kong, a public service event organizer, an AR enthusiast, a hand-drawn self-taught artist who produces various styles of illustrations from time to time, and a guzheng player who has fallen in love with traditional music because of the Ziwei Gege. she firmly believes in the real existence of the magical world, and even though she hasn't broken through the cocoon of her own cocoon, she firmly believes that her hands have already touched the door to it.",
+      "Sign": "脚踏实地，伸手摘星。",
+      "Gender": "female",
+      "Figure": "/images/members/5.png",
+      "Mail": "susan@cs-magic.com",
+      "Category": "Core"
+    },
+    "Yimi": {
+      "Name": "Xiao Ye",
+      "Title": "CMO（Chief Marketing Officer）",
+      "Desc": "Xiao Ye is the Chief Marketing Officer of CS Magic Society, an architectural designer, freelance writer, amateur illustrator, fiction author as well as a future lawyer and movie director. She has written social hotspot interviews that were read 100w+ across the internet, continuously outputted several 10w+ reports, worked as a senior content planner for first-tier media, and executed and coordinated several large-scale projects with communication power. She has good artistic aesthetics and judgment, does not set limits for herself, and is passionate about freedom, the unknown and countless possibilities.",
+      "Sign": "热爱创造的生命永不枯竭。",
+      "Gender": "female",
+      "Figure": "/images/members/7.png",
+      "Mail": "yimi@cs-magic.com",
+      "Category": "Core"
+    },
+    "Cynthia": {
+      "Name": "Cynthia",
+      "Title": "CPO（Chief Product Officer）",
+      "Desc": "DaYue is the Chief Product Officer of CS Magic Society, a Master's degree in Statistics from the University of Pennsylvania, a North American data analyst, an education practitioner, an amateur counselor, a former million-user product manager for a major Internet company, and focuses on culture, philosophy, oil painting and surrealist poetry. She believes that life is a journey to find oneself, enriching it with adventure, reflection and creativity. She has a wild imagination, loves to explore the unknown, and pursues new knowledge, even if the existence of all things will eventually return to nothingness, the life of the transaction can not become nothingness.",
+      "Sign": "因为有知，所以无知。",
+      "Gender": "female",
+      "Figure": "/images/members/6.png",
+      "Mail": "cynthia@cs-magic.com",
+      "Category": "Core"
+    },
+    "Clotho": {
+      "Name": "clotho",
+      "Title": "CDO（Chief Design Officer）",
+      "Desc": "clotho is the Chief Design Officer of CS Magic Society, Bachelor of Architectural Design from the Central Academy of Fine Arts, and a Graphic Design Seminarian from the Graduate School of Art Studies at Nihon University. clotho still seeks to find the connecting point of various arts in different fields, architecture, graphic, game art design, ui design, application of modern technology, nature, cultures of various countries, and many other things will be her inspiration. clotho is just a mortal who is passionate about living in every moment of the rapture. (The initials clotho are not capitalized to avoid the Goddess of Fortune.)",
+      "Sign": "去享受当下吧！",
+      "Gender": "female",
+      "Figure": "/images/members/4.png",
+      "Mail": "clotho@cs-magic.com",
+      "Category": "Core"
+    },
+    "Lara": {
+      "Name": "Lara",
+      "Title": "CCO（Chief Culture Officer）",
+      "Desc": "Yuan Li is the Chief Cultural Officer of CS Magic Society and a board member of Shanghai Noon Culture and Art Center. She graduated from the China Academy of Art and studied under renowned contemporary artists and curators, and has curated various art exhibitions, music festivals and art festivals, with more than ten years of experience in the art industry and cultural media.",
+      "Sign": "做对人类世界有祝福的人。",
+      "Gender": "female",
+      "Figure": "/images/members/8.png",
+      "Mail": "lara@cs-magic.com",
+      "Category": "Core"
+    },
+    "Nirva": {
+      "Name": "Nirva",
+      "Title": "Senior Advisory",
+      "Desc": "Nirva graduated from Harbin Institute of Technology with a degree in Mathematics. He is the founder of Exponential Deep Space, and former Research Specialist at Tsinghua University's Institute of Intelligent Industry. He is dedicated to giving entity and soul to the world from atoms to bits, and his main areas of engagement cover hardware, physics, and reinforcement learning. He initiated the Exponential Deep Space project to promote extraterrestrial large-scale in-situ resource utilization and the era of space civilization to become possible through a 20-year roadmap. He has completed and holds more than ten patents and intellectual property rights for a certain type of photosensitive exposure 3D printing.",
+      "Sign": null,
+      "Gender": "male",
+      "Figure": null,
+      "Mail": "nirva@cs-magic.com",
+      "Category": "Advisory"
+    },
+    "Joy": {
+      "Name": "Joy",
+      "Title": "Senior Advisory",
+      "Desc": "Joy-WPI BS/MS ECE&BME, ex-HarvardMed/Google, currently entrepreneur in SZX|PVG|YYZ|BOS in interactive sports industry",
+      "Sign": null,
+      "Gender": "female",
+      "Figure": null,
+      "Mail": "joy@cs-magic.com",
+      "Category": "Advisory"
+    },
+    "Ella": {
+      "Name": "Ella",
+      "Title": "Senior dvisory",
+      "Desc": "Ella graduated from Fudan University with a degree in Finance. She used to work in a first-tier FA and is now an independent entrepreneur.",
+      "Sign": null,
+      "Gender": "female",
+      "Figure": null,
+      "Mail": "ella@cs-magic.com",
+      "Category": "Advisory"
+    }
+  },
+  "FAQ": {
+    "Definition": {
+      "question": "What's CS Magic",
+      "answer": "- CS\" stands for Computer Science, \"Magic\" refers to the ability to solve problems beyond ordinary people, and \"Society\" stands for the collective.\n- Therefore, \"CS Magic\" is a group of people who solve real problems based on the power of science and technology. They love technology, pursue ideals, and hope to empower life and enjoy the beauty based on technology."
+    },
+    "Competitiveness": {
+      "question": "What makes CS Magic different?",
+      "answer": "- CS Magic was founded by a group of young people from prestigious schools who love technology and have modern and agile development capabilities, and are committed to building great products that are aesthetically comfortable, easy to use, feature-rich, and community-robust.\n- Not only can we provide you with stable and timely AIGC technical services, we also attach great importance to your data privacy and knowledge deposition, and support you to create your own unique plug-in services.\n\n"
+    },
+    "Subscription": {
+      "question": "Can I use CS Magic for free? What benefits do I get from a paid subscription?",
+      "answer": "- CS Magic is a professional AIGC community with community-generated content that can be viewed freely and for free.\n- CS Magic also integrates with leading third-party AIGC services, and you need to pay for using these products with us as your agent.\n- However, if you have the secret key of the corresponding platform, you can use it for free, and you can even choose whether or not to share it with others, bringing you and the platform together with additional revenue.\n\n"
+    },
+    "TargetUser": {
+      "question": "Is CS Magic suitable for beginners or do I need coding skills?",
+      "answer": "- CS Magic is positioned for white-collar workers, students, knowledge workers, etc. To use it, you are required to have some knowledge base, because AI's answers are not fully believed by humans.\n- As for some \"advanced magic\", such as customizing functions, developing plug-ins, etc., you need some programming skills. You can join our github open source community and become a contributor, and contributors will have more benefits and rights.\n\n"
+    },
+    "Business": {
+      "question": "Does CS Magic have corporate partnerships?",
+      "answer": "- CS Magic is still focusing on C-end business, and has no direct commercial cooperation with any enterprises for the time being. However, CS Magic keeps close contact and communication with many enterprises, and has some non-commercial cooperation in progress.\n- However, CS Magic keeps close contact and communication with many enterprises, and has some non-commercial cooperation in progress.\n- Based on the power of AIGC, we are happy to empower the right enterprises, including but not limited to providing consulting services, technical solutions, open source community building and so on.\n\n"
+    },
+    "Investment": {
+      "question": "Are there any financing plans for CS Magic?",
+      "answer": "- CS Magic is currently maintained at a lower labor investment and lower development cost.\n- CS Magic has been interested by several AIGC track capitals, but is still in a closed development stage.\n- CS Magic will consider, but not limited to, investment and financing, self-employment, open-source co-creation and other options from suitable companies to cover the development and operation costs of the core team.\n\n"
+    }
+  }
+}
