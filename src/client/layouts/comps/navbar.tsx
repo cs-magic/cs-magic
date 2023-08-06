@@ -45,7 +45,8 @@ export const Navbar = () => {
 						
 						<Link href={uri.product.playground} legacyBehavior passHref className={'bg-cyan-900'}>
 							<div>
-								<Button className={clsx(
+								<Button
+									className={clsx(
 									// 'hidden md:block',
 									'btn-primary  ',
 									isChinese && 'tracking-[0.1rem]',
