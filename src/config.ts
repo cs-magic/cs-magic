@@ -21,7 +21,7 @@ export const uri = {
 		faq: '/about/faq',
 	},
 	product: {
-		playground: 'https://lumos.cs-magic.com',
+		playground: 'https://poketto.ai',
 	},
 }
 
