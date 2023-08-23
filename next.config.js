@@ -7,6 +7,7 @@ const nextConfig = {
 	reactStrictMode: true,
 	i18n: i18n,
 	trailingSlash: true,
+	distDir: process.env.DIST ?? ".next",
 	
 	// ref: https://nextjs.org/docs/api-reference/next/image#remote-patterns
 	images: {

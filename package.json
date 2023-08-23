@@ -9,7 +9,8 @@
     "lint": "next lint",
     "toc": "i18next-resources-for-ts toc -i public/locales/zh-CN -o ./src/@types/resources.ts",
     "merge": "i18next-resources-for-ts merge -i public/locales/zh-CN -o ./src/@types/resources.json",
-    "interface": "i18next-resources-for-ts interface -i public/locales/zh-CN -o ./src/@types/resources.d.ts"
+    "interface": "i18next-resources-for-ts interface -i public/locales/zh-CN -o ./src/@types/resources.d.ts",
+    "update": "DIST=.next-tmp && git stash && git pull -f && yarn && DIST=$DIST yarn build && rm -rf .next && mv $DIST .next"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.1",
