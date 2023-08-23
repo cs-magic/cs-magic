@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 2011",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 2007",
+    "start": "next start",
     "lint": "next lint",
     "toc": "i18next-resources-for-ts toc -i public/locales/zh-CN -o ./src/@types/resources.ts",
     "merge": "i18next-resources-for-ts merge -i public/locales/zh-CN -o ./src/@types/resources.json",
