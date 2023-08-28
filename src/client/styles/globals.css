@@ -81,7 +81,7 @@
 
 @layer base {
     * {
-        @apply border-border transition-all;
+        @apply border-border;
     }
 
     svg {
