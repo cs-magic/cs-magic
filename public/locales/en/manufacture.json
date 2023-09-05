@@ -150,13 +150,17 @@
     },
     "Gaosh": {
       "Name": "Gaosh",
+      "Title": "Product Strategy",
       "Mail": "gao@cs-magic.com",
       "Desc": "R&D engineer in the field of infrastructure, urban road engineer, has participated in and presided over more than 20 urban road design projects, with a construction mileage of more than 200km, designed more than 10 interchanges, and the project was awarded the first prize of Shenzhen Transportation Engineering Technology Innovation. Dedicated to cross-discipline productivity synergy enhancement, integrating technology and art into future city construction.",
       "Gender": "male"
     },
     "John": {
       "Name": "John",
-      "Mail": "john@cs-magic.com"
+      "Title": "Math Researcher",
+      "Mail": "john@cs-magic.com",
+      "Desc": "After 2023, any other branches of math no longer matters, let's all-in AGI.",
+      "Gender": "male"
     },
     "LiXi": {
       "Name": "LiXi",

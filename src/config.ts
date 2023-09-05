@@ -1,6 +1,3 @@
-import localFont from 'next/font/local'
-
-
 export const uri = {
 	images: {
 		AiMap: '/images/bg/ai-anatomy-map@0.5x-裁切版.jpg',
@@ -33,9 +30,6 @@ export const beian = {
 
 export const mossSlogan = '-.-. ... -....- -- .- --. .. -.-. .-.-.- .- ..'
 
-export const dotFont = localFont({ src: '../public/fonts/DottedSongtiSquare(1).ttf' })
-export const bitFont = localFont({ src: '../public/fonts/VonwaonBitmap-16px.ttf' })
-
 export const LOGO_SIZE_LG = 36
 export const ICON_SIZE_MD = 28
 export const ICON_SIZE_SM = 20
@@ -57,15 +51,15 @@ export const groupMembers = {
 		'Nirva',
 		'Joy',
 		'Ella',
+		'Gaosh',
+		'John',
 	],
 	'Community': [
-		'Gaosh',
 		'Alone',
 		'Amber',
 		'Ely',
 		'Jaisy',
 		'Jane',
-		'John',
 		'Justine',
 		'LiXi',
 		'LiXiaowen',

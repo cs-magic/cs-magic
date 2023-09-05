@@ -1,6 +1,6 @@
 {
   "Product": {
-    "Name": "口袋 A I",
+    "Name": "Poketto.AI",
     "Desc": "Lighten Your Inspiration."
   },
   "Company": {
@@ -185,7 +185,10 @@
     },
     "John": {
       "Name": "John神",
-      "Mail": "john@cs-magic.com"
+      "Title": "数学研究者",
+      "Mail": "john@cs-magic.com",
+      "Desc": "2023年之后，其他的数学都不重要了，all-in AGI。",
+      "Gender": "male"
     },
     "LiXi": {
       "Name": "李玺",

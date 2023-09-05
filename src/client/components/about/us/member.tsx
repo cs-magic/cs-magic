@@ -1,6 +1,6 @@
 import { clsx } from 'clsx'
 import Image from 'next/image'
-import ImgMoZhen from '../../../../../public/images/members/mozhen.png'
+import ImgMoZhen from '~/images/members/mozhen.png'
 import { useTranslation } from 'next-i18next'
 import { LocaleNameSpace } from '@/ds/locales'
 import { ICommonLocale } from '@/@types/resources'

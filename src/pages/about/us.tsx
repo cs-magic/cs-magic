@@ -1,13 +1,11 @@
-import { GetServerSideProps } from 'next'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { DEFAULT_LOCALE_TYPE, LocaleNameSpace } from '@/ds/locales'
-import { useTranslation } from 'next-i18next'
-import { Members } from '@/client/components/about/us/members'
-import { VerticalLayout } from '@/client/layouts/vertical.layout'
-import localFont from 'next/font/local'
-import { clsx } from 'clsx'
-
-export const aboutUsFont = localFont({ src: '../../../public/fonts/VonwaonBitmap-16px.ttf' })
+import {GetServerSideProps} from 'next'
+import {serverSideTranslations} from 'next-i18next/serverSideTranslations'
+import {DEFAULT_LOCALE_TYPE, LocaleNameSpace} from '@/ds/locales'
+import {useTranslation} from 'next-i18next'
+import {Members} from '@/client/components/about/us/members'
+import {VerticalLayout} from '@/client/layouts/vertical.layout'
+import {clsx} from 'clsx'
+import {aboutUsFont} from "@/client/utils/assets";
 
 export const AboutUsPage = () => {
 	const { t } = useTranslation()

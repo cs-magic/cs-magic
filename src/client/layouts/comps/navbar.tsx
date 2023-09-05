@@ -6,11 +6,11 @@ import { uri } from '@/config'
 import { NavigationMenu, NavigationMenuList } from '@/client/components/ui/navigation-menu'
 import { IconUser } from '@tabler/icons-react'
 import { Button } from '@/client/components/ui/button'
-import { CompanyLogo } from '@/client/utils/loader'
 import { Avatar, AvatarFallback } from '@/client/components/ui/avatar'
 import { LocaleSwitcher } from '@/client/components/locale-switcher'
 import { useViewportSize } from '@mantine/hooks'
 import { useSmallScreen } from '@/client/hooks/use-screen'
+import {CompanyLogo} from "@/client/utils/assets";
 
 export const Navbar = () => {
 	const { t } = useTranslation()

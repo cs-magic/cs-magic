@@ -5,11 +5,11 @@ import _ from 'lodash'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { clsx } from 'clsx'
 import { Avatar, AvatarFallback, AvatarImage } from '@/client/components/ui/avatar'
-import { getShortName } from '@/utils/string'
+import { getShortName } from '@/client/utils/string'
 import { Popover, PopoverContent, PopoverTrigger } from '@/client/components/ui/popover'
 import Image from 'next/image'
 
-import qrcodeAssistant from '@/../public/images/qrcodes/wechat-susan-3.png'
+import qrcodeAssistant from '~/images/qrcodes/wechat-susan-3.png'
 import { useTranslation } from 'next-i18next'
 
 const AvatarGroup = ({ avatars, index }: { avatars: string[], index: number }) => {

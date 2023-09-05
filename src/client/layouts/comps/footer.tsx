@@ -2,10 +2,10 @@ import { useTranslation } from 'next-i18next'
 import { useSimplifiedChinese } from '@/client/hooks/use-locale'
 import { clsx } from 'clsx'
 import { LinkTree } from '@/client/components/link-tree'
-import { beian, bitFont, mossSlogan, uri } from '@/config'
+import { beian, mossSlogan, uri } from '@/config'
 import { isCurUrlDomestic } from '@/client/utils/host'
 import Link from 'next/link'
-import { CompanyLogo } from '@/client/utils/loader'
+import {bitFont, CompanyLogo} from "@/client/utils/assets";
 
 export const Footer = () => {
 	const { t } = useTranslation()
