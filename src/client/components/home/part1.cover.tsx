@@ -3,7 +3,7 @@ import { clsx } from 'clsx'
 import { Button } from '@/client/components/ui/button'
 import { AspectRatio } from '@radix-ui/react-aspect-ratio'
 import Image from 'next/image'
-import { uri } from '../../../config'
+import { uri } from '@/config'
 import { useTranslation } from 'next-i18next'
 import ReactMarkdown from 'react-markdown'
 

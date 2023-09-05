@@ -2,7 +2,7 @@ import { useTranslation } from 'next-i18next'
 import { LocaleNameSpace, LocaleType } from '@/ds/locales'
 import { useSwitchLocale } from '@/client/hooks/use-locale'
 import { IconLanguage } from '@tabler/icons-react'
-import { ICON_SIZE_MD } from '../../config'
+import { ICON_SIZE_MD } from '@/config'
 
 export const LocaleSwitcher = () => {
 	const { t, i18n } = useTranslation(LocaleNameSpace.manufacture)

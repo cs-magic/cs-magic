@@ -1,5 +1,5 @@
 import { useTranslation } from 'next-i18next'
-import { Member } from '@/client/components/about/us/member'
+import { Member } from './member'
 import { groupMembers } from '@/config'
 import Link from 'next/link'
 import { LoadingButton } from '@/client/components/LoadingButton'

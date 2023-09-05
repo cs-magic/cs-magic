@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { Controller, useController, useFormContext } from "react-hook-form";
-import useStore from "../store";
+import useStore from "@/client/store";
 import Spinner from "./Spinner";
 
 const CLOUDINARY_UPLOAD_PRESET = "p8fhv3fu";

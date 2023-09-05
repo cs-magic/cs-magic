@@ -1,4 +1,4 @@
-import { useSimplifiedChinese } from '@/client/hooks/use-locale'
+import { useSimplifiedChinese } from './use-locale'
 
 export const useSeparator = () => {
 	return useSimplifiedChinese() ? '、' : ', '

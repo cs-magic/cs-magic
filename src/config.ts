@@ -4,10 +4,10 @@ import localFont from 'next/font/local'
 export const uri = {
 	images: {
 		AiMap: '/images/bg/ai-anatomy-map@0.5x-裁切版.jpg',
-		explore: '/images/mj/home-cover.png',
+		explore: '/images/mj-xl/home-cover.jpg',
 		carousal: {
-			explore: '/images/mj/carousel-explore.png',
-			competition: '/images/mj/carousel-peace.png',
+			explore: '/images/mj-xl/carousel-explore.jpg',
+			competition: '/images/mj-xl/carousel-peace.jpg',
 		},
 	},
 	logo: '/images/logo/m/32_white_black.ico',

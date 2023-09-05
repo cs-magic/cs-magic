@@ -5,7 +5,7 @@ import { LinkTree } from '@/client/components/link-tree'
 import { beian, bitFont, mossSlogan, uri } from '@/config'
 import { isCurUrlDomestic } from '@/client/utils/host'
 import Link from 'next/link'
-import { CompanyLogo } from '../../utils/loader'
+import { CompanyLogo } from '@/client/utils/loader'
 
 export const Footer = () => {
 	const { t } = useTranslation()

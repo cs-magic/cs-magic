@@ -67,7 +67,7 @@ export const Part4Community = () => {
 			
 			<div className={'flex gap-2 h-full overflow-hidden grow relative mask h-[240px] md:h-[320px]'}>
 				{
-					_.chunk(avatarsAll.slice(0, 320), 16)
+					_.chunk(avatarsAll.slice(0, 320), 8)
 						.map((avatarGroup, index) => (
 							<AvatarGroup avatars={avatarGroup} index={index} key={index}/>
 						))
