@@ -33,7 +33,7 @@ export const Footer = () => {
 				<div className={'grid grid-flow-col justify-center gap-12 w-full md:w-fit cols-auto'}>
 					<LinkTree title={'About'} items={[
 						{ title: t('common:HomePage.links.FAQ'), href: uri.about.faq },
-						{ title: t('common:HomePage.links.AboutUS'), href: uri.about.us },
+						// { title: t('common:HomePage.links.AboutUS'), href: uri.about.us },
 					]}/>
 					
 					<LinkTree title={'Products'} items={[
