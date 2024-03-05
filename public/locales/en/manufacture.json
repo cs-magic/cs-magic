@@ -1,6 +1,11 @@
 {
-  "Product": {
-    "Name": "Poketto.AI"
+  "Products": {
+    "Sokka": {
+      "Name": "Sokka AI"
+    },
+    "Poketto": {
+      "Name": "Poketto.AI"
+    }
   },
   "Company": {
     "Name": "CS Magic",

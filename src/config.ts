@@ -18,7 +18,8 @@ export const uri = {
 		faq: '/about/faq',
 	},
 	product: {
-		playground: 'https://poketto.ai',
+        sokka: "https://sokka.cs-magic.cn",
+		poketto: 'https://poketto.cs-magic.cn',
 	},
 }
 

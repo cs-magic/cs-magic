@@ -1,8 +1,14 @@
 {
-  "Product": {
-    "Name": "Poketto.AI",
-    "Desc": "Lighten Your Inspiration."
-  },
+  "Products":{
+    "Sokka": {
+      "Name": "Sokka AI",
+      "Desc": "一站式 AI 平台"
+    },
+    "Poketto": {
+      "Name": "Poketto.AI",
+      "Desc": "Lighten Your Inspiration."
+    }
+  } ,
   "Company": {
     "Site": "CS-Magic.Ai",
     "Name": "魔法社",

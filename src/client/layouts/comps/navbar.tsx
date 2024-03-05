@@ -43,7 +43,7 @@ export const Navbar = () => {
 						
 						<LocaleSwitcher/>
 						
-						<Link href={uri.product.playground} legacyBehavior passHref className={'bg-cyan-900'}>
+						<Link href={uri.product.poketto} legacyBehavior passHref className={'bg-cyan-900'}>
 							<div>
 								<Button
 									className={clsx(

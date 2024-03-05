@@ -37,7 +37,8 @@ export const Footer = () => {
 					]}/>
 					
 					<LinkTree title={'Products'} items={[
-						{ title: t('manufacture:Product.Name'), href: uri.product.playground },
+						{ title: t('manufacture:Products.Sokka.Name'), href: uri.product.sokka },
+						{ title: t('manufacture:Products.Poketto.Name'), href: uri.product.poketto },
 					]}/>
 				
 				</div>
