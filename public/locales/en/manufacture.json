@@ -1,10 +1,13 @@
 {
   "Products": {
+    "Poketto": {
+      "Name": "Poketto.AI"
+    },
     "Sokka": {
       "Name": "Sokka AI"
     },
-    "Poketto": {
-      "Name": "Poketto.AI"
+    "SWOT": {
+      "Name": "Swift Bot (SWOT)"
     }
   },
   "Company": {

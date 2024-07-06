@@ -1,12 +1,16 @@
 {
   "Products":{
-    "Sokka": {
-      "Name": "Sokka AI",
-      "Desc": "一站式 AI 平台"
-    },
     "Poketto": {
       "Name": "Poketto.AI",
-      "Desc": "Lighten Your Inspiration."
+      "Desc": "领先的智能体平台"
+    },
+    "Sokka": {
+      "Name": "Sokka AI",
+      "Desc": "流畅的大模型评测平台"
+    },
+    "SWOT": {
+      "Name": "飞脑",
+      "Desc": "更像真人的社交助理"
     }
   } ,
   "Company": {

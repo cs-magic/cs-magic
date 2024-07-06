@@ -20,6 +20,7 @@ export const uri = {
 	product: {
         sokka: "https://sokka.cs-magic.cn",
 		poketto: 'https://poketto.cs-magic.cn',
+        swot:"https://swot.cs-magic.cn"
 	},
 }
 
