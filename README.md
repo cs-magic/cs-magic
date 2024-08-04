@@ -1,15 +1,4 @@
-# LUMOS
-
-> Developed by CS Magic Community.
-
-## Getting Started
-
-### project config
-
-```shell
-# generate keys
-./scripts/generate_secret_keys.sh  # `chmod +x` first  
-```
+# CS Magic Home Page
 
 ## Reference
 
