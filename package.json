@@ -1,7 +1,5 @@
 {
-  "name": "frontend-v3",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@cs-magic/homepage",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +8,7 @@
     "toc": "i18next-resources-for-ts toc -i public/locales/zh-CN -o ./src/@types/resources.ts",
     "merge": "i18next-resources-for-ts merge -i public/locales/zh-CN -o ./src/@types/resources.json",
     "interface": "i18next-resources-for-ts interface -i public/locales/zh-CN -o ./src/@types/resources.d.ts",
+    "i18n": "run-p toc merge interface",
     "update": "DIST=.next-tmp && git stash && git pull -f && yarn && DIST=$DIST yarn build && rm -rf .next && mv $DIST .next"
   },
   "dependencies": {
@@ -50,9 +49,9 @@
     "next-fonts": "^1.5.1",
     "next-i18next": "^13.0.0",
     "numeral": "^2.0.6",
-    "react": "18.2.0",
+    "react": "*",
     "react-cookie": "^4.1.1",
-    "react-dom": "18.2.0",
+    "react-dom": "*",
     "react-hook-form": "^7.45.2",
     "react-i18next": "^11.18.6",
     "react-infinite-scroll-hook": "^4.1.1",
@@ -68,14 +67,16 @@
     "zustand": "^4.3.9"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
     "@svgr/webpack": "^8.0.1",
+    "@types/babel__core": "^7",
     "@types/bcryptjs": "^2.4.2",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/lodash": "^4.14.195",
     "@types/node": "20.4.2",
     "@types/numeral": "^2.0.2",
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
+    "@types/react": "*",
+    "@types/react-dom": "*",
     "@types/react-responsive-masonry": "^2.1.0",
     "@types/react-stack-grid": "^0.7.3",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
@@ -91,6 +92,7 @@
     "postcss": "^8.4.26",
     "prisma": "^5.0.0",
     "tailwindcss": "^3.3.3",
-    "typescript": "^4.7"
+    "typescript": "^4.7",
+    "webpack": "^5.93.0"
   }
 }
