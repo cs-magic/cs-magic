@@ -1,5 +1,6 @@
 {
   "name": "@cs-magic/homepage",
+  "repository": "https://github.com/cs-magic/cs-magic",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
