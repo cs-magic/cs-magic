@@ -2,6 +2,7 @@
   "name": "@cs-magic/homepage",
   "repository": "https://github.com/cs-magic/cs-magic",
   "scripts": {
+    "postinstall": "shx cp ../swot-frontend/src/assets/branding/cs-magic_square_black_32.ico public/favicon.ico",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -13,6 +14,7 @@
     "update": "DIST=.next-tmp && git stash && git pull -f && yarn && DIST=$DIST yarn build && rm -rf .next && mv $DIST .next"
   },
   "dependencies": {
+    "@cs-magic/swot-frontend": "workspace:^",
     "@dword-design/eslint-plugin-import-alias": "^4.0.8",
     "@hookform/resolvers": "^3.1.1",
     "@mantine/hooks": "^6.0.17",

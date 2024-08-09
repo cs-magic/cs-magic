@@ -1,13 +1,11 @@
 export const uri = {
   images: {
-    AiMap: "/images/bg/ai-anatomy-map@0.5x-裁切版.jpg",
     explore: "/images/mj-xl/home-cover.jpg",
     carousal: {
       explore: "/images/mj-xl/carousel-explore.jpg",
       competition: "/images/mj-xl/carousel-peace.jpg",
     },
   },
-  logo: "/images/logo/m/16_black_content.ico",
   home: "/",
   auth: {
     login: "/auth/login",
