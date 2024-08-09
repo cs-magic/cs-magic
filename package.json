@@ -1,8 +1,7 @@
 {
-  "name": "@cs-magic/homepage",
+  "name": "@cs-magic/home",
   "repository": "https://github.com/cs-magic/cs-magic",
   "scripts": {
-    "postinstall": "shx cp ../swot-frontend/src/assets/branding/cs-magic_square_black_32.ico public/favicon.ico",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

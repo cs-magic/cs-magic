@@ -7,6 +7,8 @@ import { HTMLProps, PropsWithChildren } from "react"
 import { Footer } from "./comps/footer"
 import { Navbar } from "./comps/navbar"
 
+import ICO from "@cs-magic/assets/branding/cs-magic_logo_black_32.ico"
+
 export const VerticalLayout = ({
   children,
   globalFont,
@@ -22,7 +24,7 @@ export const VerticalLayout = ({
         <title>{t("manufacture:Company.FullName")}</title>
         <meta name="description" content={t("Company.Slogan")} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href={"/favicon.ico"} />
+        <link rel="icon" href={ICO.src} />
       </Head>
 
       <main
